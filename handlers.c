@@ -198,4 +198,5 @@ unsigned int (*handle_specifiers(const char *specifier))(va_list, buffer_t *,
 		if (converters[i].specifier == *specifier)
 			return (converters[i].func);
 	}
+	return (NULL);
 }
