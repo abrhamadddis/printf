@@ -75,5 +75,4 @@ buffer_t *init_buffer(void)
 	output->len = 0;
 
 	return (output);
-	return NULL;
 }
